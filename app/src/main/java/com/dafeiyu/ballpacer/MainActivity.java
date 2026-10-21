@@ -244,7 +244,7 @@ public class MainActivity extends Activity {
         }
 
         @JavascriptInterface
-        public void notifyAll() {
+        public void refreshNotifications() {
             Notifier.refreshAll(MainActivity.this);
         }
 
